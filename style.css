@@ -1,0 +1,85 @@
+body {
+  font-size: 14px;
+}
+main {
+  margin: auto;
+  width: 40%;
+  margin-top: 50px;
+  line-height: 1.6;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222 grey;
+}
+header {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  font-family: 'Abril Fatface', cursive;
+}
+.who {
+  position: absolute;
+  bottom: 20px;
+  left: 165px;
+}
+.name {
+  margin: 0px;
+  font-size: 30px;
+}
+.anakin {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-size: 50px;
+}
+.blokkolo {
+  font-size: 40px;
+  background: #444;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: -5%;
+  margin-right: -5%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.blokkolo::before {
+  content: '”';
+  font-size: 120px;
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: -50px;
+
+}
+h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.plusline {
+  border: black;
+  border-top-style: solid;
+  line-height: 100px;
+  margin-left: -5%;
+  margin-right: -5%;
+  text-indent: 50px;
+  margin-top: 50px;
+}
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
